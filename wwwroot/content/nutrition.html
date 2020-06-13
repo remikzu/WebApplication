@@ -23,6 +23,21 @@
 <body>
 
     <header>
+        <picture style="float:left">
+            <!--
+        <source type="image/jpeg" srcset="wired-brain-coffee-logo-250.jpg 250w, wired-brain-coffee-logo.jpg 500w"
+                sizes="(max-width: 500px) 15vw, 25vw" />
+        <source type="image/png" srcset="wired-brain-coffee-logo-250.png 250w, wired-brain-coffee-logo.png 500w"
+                sizes="(max-width: 500px) 15vw, 25vw" />
+    -->
+
+            <source media="(min-width:750px" srcset="wired-brain-coffee-logo-250.jpg 250w, wired-brain-coffee-logo.jpg 500w"
+                    sizes="(max-width: 1000px) 25vw, (min-width: 1000px) 15vw" />
+            <source srcset="wired-brain-coffee-logo-250.png 250w, wired-brain-coffee-logo.png 500w"
+                    sizes="(max-width: 500px) 15vw, 25vw" />
+
+            <img src="wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo" />
+        </picture>
 
         <h2>Nutrition Information</h2>
     </header>
@@ -48,51 +63,51 @@
             </tr>
             <tr>
                 <!--<th>Drink</th>-->
-                <th>Serving Size</th>
-                <th>Calories</th>
-                <th>Fat (g)</th>
-                <th>Protein (g)</th>
-                <th>Sugar (g)</th>
-                <th>Fiber (g)</th>
+            <th>Serving Size</th>
+            <th>Calories</th>
+            <th>Fat (g)</th>
+            <th>Protein (g)</th>
+            <th>Sugar (g)</th>
+            <th>Fiber (g)</th>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hot Cocoa</td>
-                <td>8 oz</td>
-                <td>250</td>
-                <td>5</td>
-                <td>2</td>
-                <td>25</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Mocha</td>
-                <td>8 oz</td>
-                <td>250</td>
-                <td>5</td>
-                <td>2</td>
-                <td>25</td>
-                <td>0</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Max</td>
-                <td></td>
-                <td>250</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tfoot>
-    </table>
-    <br />
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hot Cocoa</td>
+                    <td>8 oz</td>
+                    <td>250</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>25</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Mocha</td>
+                    <td>8 oz</td>
+                    <td>250</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>25</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Max</td>
+                    <td></td>
+                    <td>250</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+            </table>
+            <br />
 
-    <footer>
-        &copy; Remigiusz Zudzin
-    </footer>
+            <footer>
+                &copy; Remigiusz Zudzin
+            </footer>
 </body>
 
 </html>
